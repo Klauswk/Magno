@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="500" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Super Mario World Tileset" tilewidth="16" tileheight="16" spacing="1" margin="1">
+  <image source="Super Mario World Tileset.png" width="325" height="285"/>
+ </tileset>
+ <tileset firstgid="305" name="smbTilesPacked_sm" tilewidth="16" tileheight="16" spacing="2" margin="2">
+  <image source="../../../smbTilesPacked_sm.png" width="288" height="288"/>
+ </tileset>
+ <layer name="tiles" width="500" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2DEOgCAQBED4pz/Qyv8XlkYSjYFTlMwk29PtLSkBAAAAAAAAAAAAAAAAAAAAAAAAQJ0p934BAAAAjMXWBoBv09UAQIslHwMA/EvZ32W33w0A0EdkD9feAWdZGwIAI7KpAeDakx0ZtXUBgN0c/KeshwHgfRvL7zC0
+  </data>
+ </layer>
+ <objectgroup name="parede">
+  <object x="458" y="284">
+   <polyline points="0,0 -3,-20"/>
+  </object>
+  <object x="5" y="304">
+   <polyline points="0,0 6,-42"/>
+  </object>
+  <object x="931" y="226">
+   <polyline points="0,0 3,31"/>
+  </object>
+  <object x="1133" y="259">
+   <polyline points="0,0 -2,-29"/>
+  </object>
+  <object x="1146" y="231">
+   <polyline points="0,0 0,22"/>
+  </object>
+  <object x="1456" y="237">
+   <polyline points="0,0 -1,35"/>
+  </object>
+  <object x="1697" y="244">
+   <polyline points="0,0 -1,32"/>
+  </object>
+  <object x="735" y="283">
+   <polyline points="0,0 0,-13"/>
+  </object>
+  <object x="422" y="279">
+   <polyline points="0,0 1,24"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="monstros">
+  <object x="1575" y="221">
+   <polyline points="0,0 0,34"/>
+  </object>
+  <object x="1293" y="221">
+   <polyline points="0,0 3,23"/>
+  </object>
+  <object x="1034" y="198">
+   <polyline points="0,0 -1,26"/>
+  </object>
+  <object x="1209" y="207">
+   <polyline points="0,0 -3,39"/>
+  </object>
+  <object x="687" y="238">
+   <polyline points="0,0 -9,46"/>
+  </object>
+  <object x="520" y="238">
+   <polyline points="0,0 1,48"/>
+  </object>
+  <object x="312" y="263">
+   <polyline points="0,0 -1,37"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="player">
+  <object x="87" y="211">
+   <polyline points="0,0 0,46"/>
+  </object>
+ </objectgroup>
+ <layer name="decoracao" width="500" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt2MEJwCAQBMCzUWMF0f5fuQ6EQGKIM7D/fS4bAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMCX1RJxZFpZ3QQAeJMNAADMnLkT+o0M+wIAAGBbT3/Pvm0AAAAAAP7kAiniCxE=
+  </data>
+ </layer>
+</map>

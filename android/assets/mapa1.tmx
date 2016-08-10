@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="16" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tilemaps" tilewidth="32" tileheight="32">
+  <image source="../../../tilemaps.png" trans="ffffff" width="512" height="160"/>
+ </tileset>
+ <tileset firstgid="81" name="objetos" tilewidth="32" tileheight="32">
+  <image source="../../../objetos.png" trans="ffffff" width="512" height="64"/>
+ </tileset>
+ <layer name="tiles" width="32" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzF0llPAjEUhuEiiUZxuzB6wwWbG4LsiywqooIL4P//Nb6JZ5LxpDYdhjgneZJypl/LdGpMspXCFtIyPsEFLnGFG1RQxS1qyGEbO7LGLvaQwT4OkMURjnGKM8kFzw/ledKVFwUUUcK5+X0G1ygb+1nUHXljyRuVT7oaaKKFNjroooc+7jDAECOMN5C/xwMeQ+tM8YwXvGIm/Te8y/hT7T1SeaPyc+mF8wsZryxnEaUGMfPrlj63/y59vsH3+XD0XRn93dfd23Z/bD2dm+DJc25wf5bm5/58OfpTzzXnIs5/+Gt+lPefiKh769/hnM/+PnNc+9t6wRq+7x/1DsS9M2HffZdNPQ==
+  </data>
+ </layer>
+ <objectgroup name="chao">
+  <object x="1" y="321">
+   <polyline points="0,0 127,0 128,25 128,30 351,29 348,-1 382,0 384,-55 424,-57 446,-67 446,-98 478,-98 478,-131 508,-130 510,-159 956,-160 961,-155 998,-153 1004,-157 1020,-157"/>
+  </object>
+  <object x="5" y="160">
+   <polyline points="0,0 170,0 173,4 188,4 212,4 219,1 410,1 410,29 379,33 379,64 345,63 347,32 308,34 312,61 252,61 249,34 219,35 222,62 59,62 59,31 -4,32"/>
+  </object>
+  <object x="543" y="61">
+   <polyline points="0,0 0,-29 93,-27 136,-28 195,-28 203,-16 214,-11 227,-10 237,-8 242,-21 241,-29 274,-31 283,-18 297,-12 315,-11 329,-14 331,-24 350,-30 412,-27 449,-29 463,-14 477,-7"/>
+  </object>
+  <object x="3" y="99">
+   <polyline points="0,0 210,-4 218,4 229,4 246,5 256,6 261,-3 475,-5 487,6 496,16 520,16 523,2 525,-6 525,-2 726,-1 729,3 737,20 738,23"/>
+  </object>
+  <object x="768" y="119">
+   <polyline points="0,0 -2,-19 18,-21 124,-20 129,-10 121,1"/>
+  </object>
+  <object x="929" y="118">
+   <polyline points="0,0 -1,-21 69,-22 75,-8 83,0 94,0"/>
+  </object>
+  <object x="0.625" y="34.75">
+   <polyline points="0,0 5,0 5,-1.25 141.75,-1 183,-0.875 183.5,2.125 184.5,2.125 184.375,3.75 185.625,3.875 185.625,4.875 209.5,5 209.5,6.875 227.875,7 228,0 236.125,0 236.25,-1.125 266,-1.125 266,-0.125 272.125,-0.125 272,-1.125 360.25,-1 385,-1.125 385.125,1.875 401.25,17.375 424.125,17.75 424.125,14.875 425,14.75 425.25,0.375 433,0.375 433,-1 471.875,-1 473.625,3.625 477,8 480.25,10.375 483.375,13.375 487.5,16.875 488.625,18 511.375,17.875"/>
+  </object>
+  <object x="-4" y="-50">
+   <polyline points="0,0 2,560 1026,564 1024,-32"/>
+  </object>
+  <object x="0" y="64">
+   <polyline points="0,0 33,0 37,-11 62,-11 66,1 160,0 161,-17 169,-16 189,-4 241,-4 263,-14 272,-9 272,-4 291,-12 370,-10 387,-1 429,-8 443,-10 445,-17 464,-9 468,-1 510,-1 508,-9"/>
+  </object>
+  <object x="544" y="62">
+   <polyline points="0,0 15,0 28,-15 51,-12 69,-8 80,-2 212,1 252,-9 256,-9 273,0 319,3 322,-4 345,-7 355,-2 413,2 429,-12 450,3 471,2"/>
+  </object>
+  <object x="3" y="124">
+   <polyline points="0,0 157,1 200,-11 238,2 267,0 302,-10 326,-16 331,-8 352,-7 358,2 379,-5 468,-4 483,4 536,-6 556,2 568,-9 578,-5 601,-7 610,-2 632,3 636,-1 662,-1 685,-5 710,-13 721,-3 738,-2"/>
+  </object>
+  <object x="930" y="116">
+   <polyline points="0,0 27,0 39,5 54,0 63,8 87,7"/>
+  </object>
+  <object x="888" y="119">
+   <polyline points="0,0 -10,8 -16,-4 -25,0 -43,-6 -54,-10 -73,-8 -101,3 -114,8 -122,-2"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="player">
+  <object x="21" y="11">
+   <polyline points="0,0 -1,19"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="parede">
+  <object x="0" y="7">
+   <polyline points="0,0 0,24"/>
+  </object>
+  <object x="384" y="32">
+   <polyline points="0,0 -3,23"/>
+  </object>
+  <object x="544" y="16">
+   <polyline points="0,0 -1,30"/>
+  </object>
+  <object x="734" y="18">
+   <polyline points="0,0 0,25"/>
+  </object>
+  <object x="2" y="74">
+   <polyline points="0,0 -1,19"/>
+  </object>
+  <object x="191" y="71">
+   <polyline points="0,0 3,20"/>
+  </object>
+  <object x="289" y="74">
+   <polyline points="0,0 -2,20"/>
+  </object>
+  <object x="477" y="68">
+   <polyline points="0,0 2,27"/>
+  </object>
+  <object x="525" y="69">
+   <polyline points="0,0 3,21"/>
+  </object>
+  <object x="641" y="96">
+   <polyline points="0,0 -3,-29"/>
+  </object>
+  <object x="731" y="69">
+   <polyline points="0,0 1,24"/>
+  </object>
+  <object x="766" y="70">
+   <polyline points="0,0 -1,30"/>
+  </object>
+  <object x="832" y="79">
+   <polyline points="0,0 0,17"/>
+  </object>
+  <object x="897" y="91">
+   <polyline points="0,0 -1,-18"/>
+  </object>
+  <object x="959" y="76">
+   <polyline points="0,0 1,17"/>
+  </object>
+  <object x="63" y="141">
+   <polyline points="0,0 0,15"/>
+  </object>
+  <object x="413" y="158">
+   <polyline points="0,0 1,-30"/>
+  </object>
+  <object x="511" y="134">
+   <polyline points="0,0 -1,23"/>
+  </object>
+  <object x="994" y="137">
+   <polyline points="0,0 1,24"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="monstros">
+  <object x="274" y="4">
+   <polyline points="0,0 2,19"/>
+  </object>
+  <object x="621" y="7">
+   <polyline points="0,0 -1,22"/>
+  </object>
+  <object x="355" y="73">
+   <polyline points="0,0 1,11"/>
+  </object>
+  <object x="672" y="71">
+   <polyline points="0,0 1,18"/>
+  </object>
+  <object x="555" y="70">
+   <polyline points="0,0 28,14"/>
+  </object>
+  <object x="808" y="72">
+   <polyline points="0,0 -4,19"/>
+  </object>
+  <object x="766" y="133">
+   <polyline points="0,0 -3,17"/>
+  </object>
+  <object x="233" y="319">
+   <polyline points="0,0 2,24"/>
+  </object>
+  <object x="186" y="128">
+   <polyline points="0,0 4,23"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="objetos">
+  <object name="AppleTree" x="116" y="17.3333">
+   <polyline points="0,0 1.33333,14.6667"/>
+  </object>
+  <object name="AppleTree" x="344.5" y="6">
+   <polyline points="0,0 0,25"/>
+  </object>
+  <object name="AppleTree" x="394.5" y="77.5">
+   <polyline points="0,0 0,15.5"/>
+  </object>
+  <object name="AppleTree" x="92.5" y="86">
+   <polyline points="0,0 0.5,9.5"/>
+  </object>
+  <object name="AppleTree" x="702" y="12">
+   <polyline points="0,0 -7,23"/>
+  </object>
+  <object name="AppleTree" x="956" y="11">
+   <polyline points="0,0 -14,26"/>
+  </object>
+  <object name="AppleTree" x="824" y="84">
+   <polyline points="0,0 6,15"/>
+  </object>
+  <object name="AppleTree" x="975" y="83">
+   <polyline points="0,0 2,12"/>
+  </object>
+  <object name="AppleTree" x="613" y="78">
+   <polyline points="0,0 1,18"/>
+  </object>
+  <object name="BronzeRock" x="106" y="300">
+   <polyline points="0,0 -1,20"/>
+  </object>
+  <object name="BronzeRock" x="295" y="317">
+   <polyline points="0,0 3,35"/>
+  </object>
+  <object name="BronzeRock" x="407" y="240">
+   <polyline points="0,0 -2,27"/>
+  </object>
+  <object name="BronzeRock" x="673" y="142">
+   <polyline points="0,0 0,20"/>
+  </object>
+  <object name="BronzeRock" x="944" y="143">
+   <polyline points="0,0 -6,18"/>
+  </object>
+  <object name="BronzeRock" x="119" y="141">
+   <polyline points="0,0 -1,19"/>
+  </object>
+  <object name="BronzeRock" x="341" y="142">
+   <polyline points="0,0 1,17"/>
+  </object>
+ </objectgroup>
+</map>
